@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegresssionSuite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.TC03_DeleteItemFromCart">
+        <methods>
+          <include name="initSetup"/>
+          <include name="tearDown"/>
+          <include name="loginToAmazonDotInApp"/>
+        </methods>
+      </class> <!-- testcases.TC03_DeleteItemFromCart -->
+      <class name="testcases.TC01_LoginToAmazonApplication">
+        <methods>
+          <include name="loginToAmazonDotInApp"/>
+          <include name="initSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC01_LoginToAmazonApplication -->
+      <class name="testcases.TC02_AddProductToTheCart">
+        <methods>
+          <include name="initSetup"/>
+          <include name="tearDown"/>
+          <include name="addProductToTheCartAndValidate"/>
+        </methods>
+      </class> <!-- testcases.TC02_AddProductToTheCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegresssionSuite] -->

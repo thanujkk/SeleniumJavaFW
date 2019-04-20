@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="testcases.TC02_AddProductToTheCart">
+        <methods>
+          <include name="initSetup"/>
+          <include name="tearDown"/>
+          <include name="addProductToTheCartAndValidate"/>
+        </methods>
+      </class> <!-- testcases.TC02_AddProductToTheCart -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Smoke] -->
